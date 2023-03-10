@@ -47,17 +47,21 @@ li {
 }
 
 main {
-  max-width: 100%;
-  height: auto;
-  overflow: hidden;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;    
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
 }
-
 section {
-
+    width: calc(50% - 20px);
+    margin: 10px;
 }
 
 .boxes {
+    border: 2px solid #3a3a3a;
 
 }
 
@@ -70,10 +74,10 @@ section {
 just to keep the inside content sharp... */
 
 iframe {
-    width: 40%;
+    
     height: 30em;
     object-fit: cover;
-    border:1px soild #3a3a3a;
+    border: 1px solid #3a3a3a;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -82,25 +86,49 @@ iframe {
   /* navigation */
 
 
-/* start with larger screens */
+/* Large screens */
 @media screen and (min-width: 915px) and (max-width: 2800px) {
-
+    iframe {
+        width: 50%;
+        height: 30em;
+        object-fit: cover;
+        border: 1px solid #3a3a3a; 
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
 }
 
-/* laptop */
+/* laptop medium */
 @media screen and (min-width: 658px ) and (max-width: 925px) { 
-
+    iframe {
+        width: 50%;
+        height: 20em;
+        object-fit: cover;
+        border: 1px solid #3a3a3a;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
 }
 
 
 
 /* mobile landscape */
 @media screen and (min-width: 451px) and (max-width: 657px) { 
-
+    iframe {
+        width: 80%;
+        height: 20em;
+        object-fit: cover;
+        border: 1px solid #3a3a3a;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
 }
 
 
 /* mobile smaller screens */
 @media screen and (min-width: 271px) and (max-width: 451px) { 
-    
+    iframe {
+        width: 90%;
+        height: 15em;
+        object-fit: cover;
+        border: 1px solid #3a3a3a;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
 }
