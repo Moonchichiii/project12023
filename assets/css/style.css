@@ -19,20 +19,31 @@ h1,h2,h3 {
   
 p {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4em;
     
 }
 
 header {
   background-image: linear-gradient(30deg, #ffbe5a, #963c96, #3C1874, #963c96);
   display: flex;
-  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
   text-align: center;
   align-items: center;
   width: 100%;
-  border-bottom:1px solid #3a3a3a;
-  
+  border-bottom:1px solid #3a3a3a;  
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.3em;
+
+}
+
+li {
+    list-style: none;
 }
 
 main {
