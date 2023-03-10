@@ -1,16 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Shantell+Sans:wght@300&family=Ubuntu:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
-body html {
-    background-color: white;
-    background-image: linear-gradient(
-   55deg,
-   #ffbe5a,    
-   #6782B4,
-   #B1BFD8);
-    color: #3a3a3a;
+body {
+   margin: 0 auto; 
+   padding 0 auto;
+   color:#3a3a3a; 
+   background-image: linear-gradient(55deg,#ffbe5a,#6782B4,#B1BFD8);
+}
+/*  styles */
+
+h1,h2,h3 {
+  font-family: 'Roboto', sans-serif;
+    
+}
+  
+p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+    
+}
+
+
+main {
+  max-width: 100%;
+  max-height: auto;
+  overflow: hidden;
 
 }
+
+section {
+
+}
+
+.boxes {
+
+}
+
+  
+  /* navigation */
 
 
