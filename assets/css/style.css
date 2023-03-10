@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body html {
+    background-color: white;
+    background-image: linear-gradient(
+   55deg,
+   #ffbe5a,    
+   #6782B4,
+   #B1BFD8);
+    color: #3a3a3a;
+
+}
+
+
