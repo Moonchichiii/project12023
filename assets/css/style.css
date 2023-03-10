@@ -61,7 +61,46 @@ section {
 
 }
 
+
+/* video content */
+
+
+/* remove this later  !!!!!!!!!!!!!!!!!!!!! 
+- make sure the adjust the content inside the iframe on smaller screens !!! 
+just to keep the inside content sharp... */
+
+iframe {
+    width: 40%;
+    height: 30em;
+    object-fit: cover;
+    border:1px soild #3a3a3a;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+
   
   /* navigation */
 
 
+/* start with larger screens */
+@media screen and (min-width: 915px) and (max-width: 2800px) {
+
+}
+
+/* laptop */
+@media screen and (min-width: 658px ) and (max-width: 925px) { 
+
+}
+
+
+
+/* mobile landscape */
+@media screen and (min-width: 451px) and (max-width: 657px) { 
+
+}
+
+
+/* mobile smaller screens */
+@media screen and (min-width: 271px) and (max-width: 451px) { 
+    
+}
