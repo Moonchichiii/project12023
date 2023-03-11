@@ -20,6 +20,7 @@ h1,h2,h3 {
 p {
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.4em;
+  letter-spacing: 0.1em;
     
 }
 
@@ -56,11 +57,11 @@ main {
     overflow: hidden;
 }
 section {
-    width: calc(50% - 20px);
+    width: calc(55% - 20px);
     margin: 5%;
 }
 
-.boxes {
+.box-content {
     border: 2px solid #3a3a3a;
 
 }
@@ -119,6 +120,10 @@ iframe {
         border: 1px solid #3a3a3a;
         box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     }
+    section {
+        width: calc(80% - 20px);
+        margin: 5%;
+    }
 }
 
 
@@ -131,4 +136,14 @@ iframe {
         border: 1px solid #3a3a3a;
         box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     }
+    section {
+        width: calc(80% - 20px);
+        margin: 5%;
+    }
+    .box-content {
+        border: 2px solid #3a3a3a; /* remove this after its done. */
+        text-align: center;
+    
+    }
+    
 }
