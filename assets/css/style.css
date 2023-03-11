@@ -57,13 +57,17 @@ main {
     overflow: hidden;
 }
 section {
-    width: calc(55% - 20px);
+    width: calc(55% - 10px);
     margin: 5%;
 }
 
 .box-content {
     border: 2px solid #3a3a3a;
+}
 
+.box-content iframe {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -75,7 +79,10 @@ section {
 just to keep the inside content sharp... */
 
 iframe {
-    
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1%;
+    width: 80%;
     height: 30em;
     object-fit: cover;
     border: 1px solid #3a3a3a;
@@ -136,9 +143,15 @@ iframe {
         border: 1px solid #3a3a3a;
         box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     }
+    main {
+        text-align: center;
+    }
     section {
         width: calc(80% - 20px);
         margin: 5%;
+    }
+    p {
+        text-align: center;
     }
     .box-content {
         border: 2px solid #3a3a3a; /* remove this after its done. */
