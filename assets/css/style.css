@@ -178,18 +178,19 @@ iframe {
 }
 
 input {
+    margin-bottom: 1%;
     text-align: center;
     background-color: #963c96;
     color:white;
 }
 input[type="submit"] {
-    margin-top: 1%;
+    margin-top: 2%;
     border: transparent;
     background-color:#FB8122;
     color: antiquewhite;
 }
 input[type="submit"]:hover {
-    margin-top: 1%;
+    margin-top: 2%;
     border: transparent;
     background-color: #3C1874;
     color: antiquewhite;
