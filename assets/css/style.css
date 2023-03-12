@@ -59,6 +59,38 @@ li {
     list-style: none;
 }
 
+
+
+
+/* small screen navbar */
+
+
+.sticky-menu {
+   position: relative;
+}
+
+#mob-menu #navbar {
+    position: fixed;
+    top:auto;
+    margin-left: 2%;
+    border: none;
+    font-size: 2rem;
+    color: #ffbe5a;
+    background: transparent;
+    margin-bottom: auto;
+    z-index: 3;      
+ }
+
+
+
+
+
+
+
+
+/* End of small screen navbar */  
+
+
 main {
     display: flex;
     flex-wrap: wrap;
