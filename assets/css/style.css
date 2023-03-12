@@ -35,12 +35,24 @@ header {
   border-bottom:1px solid #3a3a3a;  
 }
 
+.skull {
+    font-size: 5.5rem;
+    color:white;
+}
+.skull:hover {
+    color:#FB8122;
+}
+
 a {
+  color:white;
   list-style: none;
   text-decoration: none;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.3em;
-
+  line-height: 1.5;
+}
+a:hover {
+    color:#FB8122;
 }
 
 li {
@@ -98,7 +110,7 @@ iframe {
 @media screen and (min-width: 915px) and (max-width: 2800px) {
     iframe {
         width: 50%;
-        height: 30em;
+        height: 20em;
         object-fit: cover;
         border: 1px solid #3a3a3a; 
         box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
@@ -108,7 +120,7 @@ iframe {
 /* laptop medium */
 @media screen and (min-width: 658px ) and (max-width: 925px) { 
     iframe {
-        width: 50%;
+        width: 80%;
         height: 20em;
         object-fit: cover;
         border: 1px solid #3a3a3a;
